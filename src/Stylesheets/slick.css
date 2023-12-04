@@ -1,0 +1,27 @@
+/* Custom CSS */
+.slick-prev {
+    left: +45%;
+    z-index: 1000;
+}
+
+.slick-next {
+    right: +45%;
+    z-index: 1000;
+    
+}
+
+.slick-prev, .slick-next {
+font-size: 24px;
+}
+
+.slick-prev, .slick-next {
+font-size: 24px;
+height: 50px;
+width: 50px;
+color: #000; /* Màu của nút */
+background-color: #fab6c6;
+font-size: 0px;
+}
+.slick-prev:hover, .slick-next:hover{
+    background-color: bisque;
+}

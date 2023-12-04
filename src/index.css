@@ -1,0 +1,77 @@
+.wrapper {
+  background: transparent;
+  border-radius: 20px;
+}
+.bg-secondary{
+  background-color: #ebeae2!important;
+}
+.display-2 {
+  font-size: 2.8rem;
+  line-height: 1.15;
+}
+.nav-link{
+  padding: 10px 20px!important;
+} 
+.nav-link:hover{
+  color: #ff0066;
+}
+.display-1 {
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.btn-primary{
+  border-radius: 50px!important;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ff0066;
+  border: #ff0066;
+}
+.btn-primary:hover{
+  background-color: aliceblue;
+  color: #363131;
+}
+#btn-learnmore{
+  background-color: azure;
+  color: #6e6e6e;
+}
+#btn-learnmore:hover{
+  background-color: #ff0066;
+  color: azure;
+}
+.star{
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+.display-5{
+  font-size: 18px;
+  font-weight: bold;
+}
+#ule div .card{
+  padding:  30px 20px;
+}
+.mbr-overlay {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.carousel-indicators [data-bs-target]{
+  width: 5px;
+  padding: 5px;
+  border-radius: 50%;
+}
+section {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#faq-expand{
+  min-width: 90%;
+}
